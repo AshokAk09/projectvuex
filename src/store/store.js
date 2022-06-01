@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
+
+//I m back
+
 //hello
 //this is vk changes
 //merge conflict
@@ -8,7 +11,7 @@ import axios from 'axios'
 //this is new
 //main branch conflict
 //helo vino
-Vue.use(Vuex);
+mainVue.use(Vuex);
 
 export const store=new Vuex.Store({
     state:{
