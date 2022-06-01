@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 import axios from 'axios'
 //hello
 //this is vk changes
-//merger conflic
+//merge conflict
 //hello ashok this is main branch
 
 Vue.use(Vuex);
