@@ -5,7 +5,7 @@ import axios from 'axios'
 //this is vk changes
 
 //hello ashok this is main branch
-
+//main branch conflict
 Vue.use(Vuex);
 
 export const store=new Vuex.Store({
