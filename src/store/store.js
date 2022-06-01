@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
-//hello ashok kumar n k k
+//hello
+//this is vk changes
 Vue.use(Vuex);
 
 export const store=new Vuex.Store({
