@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 import axios from 'axios'
 //hello
 //this is vk changes
+//for merge conflict
 Vue.use(Vuex);
 
 export const store=new Vuex.Store({
