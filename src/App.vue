@@ -1,6 +1,7 @@
 <template>
   <div id="app">
      <router-view></router-view>
+     <p>Ashok<p>
   </div>
 </template>
 
