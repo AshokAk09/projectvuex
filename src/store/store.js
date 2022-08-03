@@ -1,3 +1,4 @@
+//hello
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
@@ -61,11 +62,7 @@ export const store=new Vuex.Store({
         deletemembers(state,payload){
             let ind = state.members.findIndex(members=>members.id==payload)
             state.members.splice(ind,1)
-        }
-      
-      
-
-            
+        }         
     },
     actions:{
 
@@ -109,7 +106,6 @@ export const store=new Vuex.Store({
                           {
                               console.log(payload)  
                               resolve(payload)
-                              
                           }
                         }
                 else if (error.request) {

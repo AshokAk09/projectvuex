@@ -60,7 +60,7 @@ export default{
         },*/
         checkput:function(){
             let pp = JSON.stringify(this.member)
-            alert(pp)
+            console.log(pp)
             if(this.member.Name && this.member.Rollno && this.member.Email && this.member.Contact)
             {
                 let payload={cid:this.$route.params.id,res:this.member}
